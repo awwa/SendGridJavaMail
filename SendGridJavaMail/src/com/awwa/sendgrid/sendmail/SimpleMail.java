@@ -20,7 +20,7 @@ public class SimpleMail {
         Properties props = new Properties();
         props.put("mail.transport.protocol", "smtp");
         props.put("mail.smtp.host", SMTP_HOST_NAME);
-        props.put("mail.smtp.port", 587);
+        props.put("mail.smtp.port", 2525);
         props.put("mail.smtp.auth", "true");
 
         Authenticator auth = new SMTPAuthenticator();
